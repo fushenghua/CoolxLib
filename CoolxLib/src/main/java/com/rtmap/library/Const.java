@@ -1,10 +1,5 @@
 package com.rtmap.library;
 
-/**
- * 一些系统常量的定义
- *
- * @author duohuo-jinghao
- */
 public class Const {
 
     //打印日志

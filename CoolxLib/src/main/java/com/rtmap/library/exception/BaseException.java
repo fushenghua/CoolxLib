@@ -15,11 +15,6 @@
 
 package com.rtmap.library.exception;
 
-/**
- * Author: wyouflf
- * Date: 13-7-24
- * Time: 下午3:00
- */
 public class BaseException extends Exception {
     private static final long serialVersionUID = 1L;
 
