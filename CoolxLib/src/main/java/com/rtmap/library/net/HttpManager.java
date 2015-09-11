@@ -34,28 +34,13 @@ public class HttpManager {
 
     public static HttpManager getInstance() {
         if (mInstance == null) {
-            synchronized (OkHttpClientManager.class) {
+            synchronized (HttpManager.class) {
                 if (mInstance == null) {
                     mInstance = new HttpManager();
                 }
             }
         }
         return mInstance;
-    }
-
-    public static void longTimeOut() {
-//        HttpConnectionParams.setSoTimeout(httpParams, DEFAULT_SOCKET_TIMEOUT);
-//        HttpConnectionParams.setConnectionTimeout(httpParams,
-//                DEFAULT_SOCKET_TIMEOUT);
-//        ConnManagerParams.setTimeout(httpParams, DEFAULT_SOCKET_TIMEOUT);
-    }
-
-    public static void shortTimeOut() {
-//        HttpConnectionParams.setSoTimeout(httpParams,
-//                DEFAULT_SOCKET_TIMEOUT_SHORT);
-//        HttpConnectionParams.setConnectionTimeout(httpParams,
-//                DEFAULT_SOCKET_TIMEOUT_SHORT);
-//        ConnManagerParams.setTimeout(httpParams, DEFAULT_SOCKET_TIMEOUT_SHORT);
     }
 
 
