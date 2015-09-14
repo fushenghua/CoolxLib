@@ -40,6 +40,37 @@
  *     Crash异常捕获
 
     
+===========    
     
+    Main module function:
+Network request module,
+Database operation module,
+Universal tool type module,
+Upload Avatar module,
+Network request module:
+Support for automatic analysis of JSON data
+Support configurable cache
+Automatic retry mechanism for network anomaly
+Automatic processing of supporting network error
+Seamless support for GZIP to reduce data traffic
+Multi IP automatic retry (server configuration of multiple IP addresses, when the first IP connection failed, automatically retry the next IP)
+Database module:
+Lightweight ORM framework supports Android SQLite (crud easily)
+Support transactions, the default shutdown;
+Support for chain expression queries, more intuitive query semantics, reference the following introduction or examples in sample.
+Picture download module:
+Supports loading network images and local images;
+Lightweight caching module:
+Support lightweight caching, cache
+Sharepreference user object storage
+Upload avatar module
+Support cutting, compression
+Support avatar cache
+Supports a line of code to upload Avatar
+Output log module LogUtils
+Support output positioning
+Support Map/Array/JSON and other data format output
+Relese remove log output
+Crash exception capture
     
     
